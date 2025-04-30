@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Omkar | Web Developer</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/yourkitid.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="logo">Omkar</div>
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </nav>
+
+      <div class="hero-content">
+        <h1 data-animate="fade-in">Hi, I'm <span>Omkar Kadam</span>.</h1>
+        <h2 data-animate="fade-in-delay">Crafting Modern Web Experiences 🚀</h2>
+        <p data-animate="fade-in-delay2">
+          Web Developer | Frontend Enthusiast | Cloud Learner
+        </p>
+
+        <div class="cta-buttons" data-animate="fade-in-delay3">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+          <a href="/My-Resume.html" class="btn secondary">My Resume</a>
+        </div>
+
+        <div class="hero-icons" data-animate="fade-in-delay4">
+          <i class="fab fa-html5" title="HTML5"></i>
+          <i class="fab fa-css3-alt" title="CSS3"></i>
+          <i class="fab fa-js" title="JavaScript"></i>
+          <i class="fab fa-git-alt" title="Git"></i>
+          <i class="fas fa-cloud" title="Cloud"></i>
+          <i class="fab fa-python" title="Python"></i>
+          <i class="fas fa-database" title="Database"></i>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+
+      <!-- Animated Background Blobs -->
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-content">
+        <h2 data-animate="fade-in">About <span>Me</span></h2>
+        <p data-animate="fade-in-delay">
+          I am a final-year BBA (Computer Applications) student at Dr. D. Y.
+          Patil Arts, Commerce & Science College (2022–2025), with a strong
+          foundation in Python, JavaScript, and web development.
+        </p>
+        <p>
+          My academic background includes key coursework in computer
+          programming, web development, database management, and networking.
+        </p>
+        <p>
+          I'm passionate about creating user-friendly web applications and
+          exploring the latest technologies.
+        </p>
+
+        <div class="cards">
+          <div class="card" data-animate="fade-in-delay2">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Frontend Development</h3>
+            <p>
+              Building beautiful UIs with HTML, CSS, JavaScript. Dreaming pixels
+              into reality ✨.
+            </p>
+          </div>
+
+          <div class="card" data-animate="fade-in-delay3">
+            <i class="fas fa-cloud"></i>
+            <h3>Cloud Explorer</h3>
+            <p>
+              Currently learning AWS and Azure cloud to deploy scalable and
+              secure apps ☁️.
+            </p>
+          </div>
+
+          <div class="card" data-animate="fade-in-delay4">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Learner</h3>
+            <p>
+              Quickly adapting to new technologies and solving challenges with
+              creativity 🚀.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating Animated Shapes -->
+      <div class="floating-shape shape1"></div>
+      <div class="floating-shape shape2"></div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-container" data-animate="fade-in">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="/assets/img/Hair4Life.jpg" alt="Project 1" />
+            <div class="project-content">
+              <h3>Hair4Life</h3>
+              <p>
+                Developed a hair management system with a donation portal for
+                hair and money to support cancer patients.
+              </p>
+              <div class="project-tags">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+                <i class="fas fa-database" title="Database"></i>
+              </div>
+              <a href="#" class="btn secondary" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/img/AuctionXpert.png" alt="Project 2" />
+            <div class="project-content">
+              <h3>AuctionXpert</h3>
+              <p>Real-time auction system with live bidding.</p>
+              <div class="project-tags">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+                <i class="fas fa-database" title="Database"></i>
+              </div>
+              <a href="#" class="btn secondary" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/img/InsightCircle.jpg" alt="Project 3" />
+            <div class="project-content">
+              <h3>InsightCircle</h3>
+              <p>Mentoring & counseling web platform.</p>
+              <div class="project-tags">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+                <i class="fas fa-database" title="Database"></i>
+              </div>
+              <a href="#" class="btn secondary" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/img/Espressoedge.jpg" alt="Project 4" />
+            <div class="project-content">
+              <h3>EspressoEdge</h3>
+              <p>A modern coffee shop management website.</p>
+              <div class="project-tags">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+              </div>
+              <a href="#" class="btn secondary" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/img/FitTrack.jpg" alt="Project 5" />
+            <div class="project-content">
+              <h3>FitTrack</h3>
+              <p>Interactive fitness tracking panel.</p>
+              <div class="project-tags">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+              </div>
+              <a href="#" class="btn secondary" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/img/Crypt-Dashboard.jpg" alt="Project 6" />
+            <div class="project-content">
+              <h3>Crypto Dashboard</h3>
+              <p>Interactive crypto dashboard with real-time data.</p>
+              <div class="project-tags">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+              </div>
+              <a href="#" class="btn secondary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-content">
+        <h2 data-animate="fade-in">Let's <span>Connect</span></h2>
+        <p data-animate="fade-in-delay">
+          Got a project idea or collaboration? Let's build something amazing
+          together 🚀.
+        </p>
+
+        <form class="contact-form" data-animate="fade-in-delay2">
+          <input type="text" placeholder="Your Name" class="name" style="color: black;" required />
+          <input type="email" placeholder="Your Email" class="email" style="color: black;" required />
+          <textarea placeholder="Your Message" rows="5" class="message" style="color: black;"></textarea>
+          <button class="btn send-messsage">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Animated Background Blobs -->
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container" data-animate="fade-in">
+        <div class="footer-brand">
+          <h3>Omkar Kadam</h3>
+          <p>Turning ideas into reality with code.</p>
+        </div>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/Omkarkadam-dev"
+            target="_blank"
+            class="social-icon"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/omkarkadam9"
+            target="_blank"
+            class="social-icon"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://twitter.com/OmkarKadam1211"
+            target="_blank"
+            class="social-icon"
+            title="Twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Omkar Kadam. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <script>
+      const name = document.querySelector(".name");
+      const email = document.querySelector(".email");
+      const message = document.querySelector(".message");
+
+      const button = document.querySelector(".send-messsage");
+
+      console.log(button)
+
+      button.addEventListener("click", handleSendMessage);
+
+      async function handleSendMessage(e) {
+
+        e.preventDefault()
+
+        if (!name.value || !email.value || !message.value) {
+          alert("Anyone field is empty!");
+          return
+        }
+
+        const data = {
+          name: name.value,
+          email: email.value,
+          message: message.value,
+        };
+
+        console.log(data);
+
+        button.innerHTML = "sending...";
+
+        const response = await axios.post(
+          "http://localhost:3000/api/send-mail",
+          data
+        );
+        button.innerHTML = "Send Message";
+
+        console.log(response.data)
+        if (response.data.status == true) {
+          alert("Form Submitted Successfully!");
+        } else {
+          alert("Form Submission Failed!");
+        }
+      }
+    </script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
