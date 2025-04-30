@@ -312,6 +312,9 @@
         console.log(response.data)
         if (response.data.status == true) {
           alert("Form Submitted Successfully!");
+          name.value = "";
+          email.value = "";
+          message.value = "";
         } else {
           alert("Form Submission Failed!");
         }
